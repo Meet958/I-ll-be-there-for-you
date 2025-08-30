@@ -1,0 +1,29 @@
+{
+  "name": "i'll-be-there-for-you",
+  "version": "1.0.0",
+  "description": "AI companion site using Gemini for chat and journaling",
+  "main": "server.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "AI",
+    "Gemini",
+    "Express",
+    "Chatbot",
+    "Journal"
+  ],
+  "author": "Animesh Chandra Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
